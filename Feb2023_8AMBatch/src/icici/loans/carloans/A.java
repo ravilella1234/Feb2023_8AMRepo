@@ -1,19 +1,19 @@
 package icici.loans.carloans;
 
-public class A 
+public abstract class A 
 {
-	public int x = 10;
+	public final static int x = 10;
 	
 	public void m1()
 	{
 		System.out.println("iam m1 from A");
 	}
+	
+	public abstract void m5();
 
 	public static void main(String[] args) 
 	{
-		A a = new A();
-		a.m1();
-		System.out.println(a.x);
+		
 	}
 
 }
