@@ -1,8 +1,5 @@
 package selenium;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-
 public class TC_003 extends BaseTest
 {
 
@@ -14,13 +11,21 @@ public class TC_003 extends BaseTest
 		
 		navigateUrl("amazonurl");
 		
-		WebElement element = driver.findElement(By.id("searchDropdownBox"));
-		element.sendKeys("Books");
+		selectOption("amazondropdown_id","Books");
 		
-		driver.findElement(By.name("field-keywords")).sendKeys("Harry Potter");
+		typeText("amazonsearchtext_id","Harry Potter");
 		
-		driver.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
+		clickElement("amazonsearchbutton_xpath");
+		
+		
+		//WebElement element = driver.findElement(By.id("searchDropdownBox"));
+		//element.sendKeys("Books");
+		
+		//driver.findElement(By.name("field-keywords")).sendKeys("Harry Potter");
+		
+		//driver.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
 
 	}
 
+	
 }
