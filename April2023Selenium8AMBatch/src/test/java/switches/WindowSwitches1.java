@@ -1,6 +1,5 @@
 package switches;
 
-import java.time.Duration;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -27,7 +26,7 @@ public class WindowSwitches1
 		String parentWind = driver.getWindowHandle();
 		System.out.println(parentWind);
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+		WebDriverWait wait = new WebDriverWait(driver, 60);
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("(//img[@alt='FD'])[1]")))).click();
 		
 		Set<String> winds = driver.getWindowHandles();

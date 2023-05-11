@@ -2,7 +2,6 @@ package selenium;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Date;
 import java.util.Properties;
 
@@ -140,7 +139,7 @@ public class BaseTest
 	{
 		System.out.println("Checking for Element presence :" + locatorKey );
 		
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.presenceOfElementLocated(getLocator(locatorKey)));
 		
 		/*if(locatorKey.endsWith("_id")) {

@@ -1,61 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[Clicked on Image Link]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
+  <suite name="RegressionSuite" duration-ms="40712" started-at="2023-05-11T03:22:17Z" finished-at="2023-05-11T03:22:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
-      <class name="testng.TNG_002">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testng.TNG_002@7e0b0338]" name="beforeSuite" is-config="true" duration-ms="26" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.TNG_002@7e0b0338]" name="beforeTest" is-config="true" duration-ms="2" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testng.TNG_002@7e0b0338]" name="beforeClass" is-config="true" duration-ms="11" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.TNG_002@7e0b0338]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
+    <test name="RegressionTest" duration-ms="40712" started-at="2023-05-11T03:22:17Z" finished-at="2023-05-11T03:22:58Z">
+      <class name="testng.RadioButton1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.RadioButton1@e25b2fe]" name="beforeMethod" is-config="true" duration-ms="8632" started-at="2023-05-11T03:22:17Z" finished-at="2023-05-11T03:22:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:1, instance:testng.TNG_002@7e0b0338]" name="f" duration-ms="13" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
+        <test-method status="PASS" signature="radioButtonTest()[pri:0, instance:testng.RadioButton1@e25b2fe]" name="radioButtonTest" duration-ms="1030" started-at="2023-05-11T03:22:26Z" finished-at="2023-05-11T03:22:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.TNG_002@7e0b0338]" name="afterMethod" is-config="true" duration-ms="3" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
+        </test-method> <!-- radioButtonTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.RadioButton1@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1739" started-at="2023-05-11T03:22:27Z" finished-at="2023-05-11T03:22:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="z()[pri:3, instance:testng.TNG_002@7e0b0338]" name="z" duration-ms="5" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
+      </class> <!-- testng.RadioButton1 -->
+      <class name="testng.LinksTesting1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testng.LinksTesting1@4dfa3a9d]" name="setup" is-config="true" duration-ms="4759" started-at="2023-05-11T03:22:51Z" finished-at="2023-05-11T03:22:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- z -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.TNG_002@7e0b0338]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="linktesting1()[pri:0, instance:testng.LinksTesting1@4dfa3a9d]" name="linktesting1" duration-ms="1561" started-at="2023-05-11T03:22:55Z" finished-at="2023-05-11T03:22:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Image Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- linktesting1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.LinksTesting1@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="994" started-at="2023-05-11T03:22:57Z" finished-at="2023-05-11T03:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.LinksTesting1 -->
+      <class name="testng.TNG_003">
+        <test-method status="PASS" signature="startProcess()[pri:0, instance:testng.TNG_003@146ba0ac]" name="startProcess" is-config="true" duration-ms="5121" started-at="2023-05-11T03:22:37Z" finished-at="2023-05-11T03:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:testng.TNG_003@146ba0ac]" name="amazon" duration-ms="7470" started-at="2023-05-11T03:22:42Z" finished-at="2023-05-11T03:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:testng.TNG_003@146ba0ac]" name="endProcess" is-config="true" duration-ms="1252" started-at="2023-05-11T03:22:49Z" finished-at="2023-05-11T03:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- testng.TNG_003 -->
+      <class name="testng.CheckBox1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.CheckBox1@754ba872]" name="beforeMethod" is-config="true" duration-ms="6482" started-at="2023-05-11T03:22:29Z" finished-at="2023-05-11T03:22:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testng.TNG_002@7e0b0338]" name="afterClass" is-config="true" duration-ms="1" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
+        <test-method status="PASS" signature="checkboxTest()[pri:0, instance:testng.CheckBox1@754ba872]" name="checkboxTest" duration-ms="578" started-at="2023-05-11T03:22:35Z" finished-at="2023-05-11T03:22:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.TNG_002@7e0b0338]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
+        </test-method> <!-- checkboxTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.CheckBox1@754ba872]" name="afterMethod" is-config="true" duration-ms="1029" started-at="2023-05-11T03:22:36Z" finished-at="2023-05-11T03:22:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testng.TNG_002@7e0b0338]" name="afterTest" is-config="true" duration-ms="1" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testng.TNG_002@7e0b0338]" name="afterSuite" is-config="true" duration-ms="1" started-at="2023-05-10T03:30:30Z" finished-at="2023-05-10T03:30:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testng.TNG_002 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testng.CheckBox1 -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
 </testng-results>
