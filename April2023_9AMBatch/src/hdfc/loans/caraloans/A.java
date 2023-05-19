@@ -1,6 +1,6 @@
 package hdfc.loans.caraloans;
 
-public abstract class A 
+public class A 
 {
 	 int x = 100;
 	
@@ -20,7 +20,7 @@ public abstract class A
 		System.out.println("iam static block..");
 	}
 	
-	abstract void m5();
+	
 
 	public static void main(String[] args) 
 	{
