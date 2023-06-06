@@ -23,6 +23,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pom.LoginPage;
 
 public class BaseTest 
 {
@@ -36,6 +37,7 @@ public class BaseTest
 	public static ExtentReports report;
 	public static ExtentTest test;
 	public static String filePath;
+	public  LoginPage page;
 	
 	static
 	{
